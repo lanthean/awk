@@ -1,0 +1,8 @@
+#!/usr/local/bin/awk -f
+BEGIN {
+ # x=5
+ test[5]=1
+ test["5"]=2
+ print test[5]
+ print test["5"]
+}

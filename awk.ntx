@@ -1,0 +1,18 @@
+#!/bin/bash
+##
+# My notes file
+# @Author	Ing. Martin Bortel
+# @Date		21/06/2018
+# @Update	
+# @Type		[notex]
+#
+# @Topic	(G)AWK
+##
+
+# use gawk 
+# in mac
+brew install gawk
+ln -s /usr/local/Cellar/gawk/4.2.1/bin/gawk $HOME/bin/awk
+
+# run
+awk -f </path/to/awk/script>
